@@ -10,8 +10,8 @@ To perform Image Captioning we will require two deep learning models combined in
 - CNNs extract the features from the image of some vector size aka the vector embeddings. The size of these embeddings depend on the type of pretrained network being used for the feature extraction
 
 - LSTMs are used for the text generation process. The image embeddings are concatenated with the word embeddings and passed to the LSTM to generate the next word For a more illustrative explanation of this architecture check the Modelling section for a picture representation
-
-I am using Flickr8K [image-caption] dataset from kaggle which consisits of 8000+ images. with 5 captions for each images
+- 
+### I am using Flickr8K [image-caption] dataset from kaggle which consisits of 8000+ images. with 5 captions for each images
 We have taken less image dataset so we will be using Transfer Learning techniques with pretrained model like CNNS(Resnet50) which is trained in 'Imagenet',RNNS(LSTM) for text processing and generating
 
 # Transfer learning is a technique that can be used to improve the performance of a machine learning model when there is a limited amount of training data available. The idea behind transfer learning is to use a pre-trained model that has been trained on a large dataset of images, such as ImageNet, and then fine-tune the model on the smaller dataset.
