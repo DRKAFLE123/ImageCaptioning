@@ -15,3 +15,14 @@ To perform Image Captioning we will require two deep learning models combined in
 We have taken less image dataset so we will be using Transfer Learning techniques with pretrained model like CNNS(Resnet50) which is trained in 'Imagenet',RNNS(LSTM) for text processing and generating
 
 # Transfer learning is a technique that can be used to improve the performance of a machine learning model when there is a limited amount of training data available. The idea behind transfer learning is to use a pre-trained model that has been trained on a large dataset of images, such as ImageNet, and then fine-tune the model on the smaller dataset.
+
+
+1. Import all the Required Packages
+2. Perform Data Cleaning
+3. Extract the Feature Vector
+4. Loading dataset for model training
+5. Tokenizing the Vocabulary
+6. Create a Data generator
+7. Define the CNN-RNN model
+8. Training the Image Caption Generator model
+9. Testing the Image Caption Generator model
